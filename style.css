@@ -1,0 +1,164 @@
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.baskervville-font{
+  font-family: "Baskervville", serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+
+header{
+  background-color:white;
+  padding:0.7rem;
+  width:100%;
+}
+body{
+  font-family:Raleway, Arial;
+}
+h1,h2,h3{
+  font-family:Baskervville, Times New Roman;
+  font-weight:500;
+}
+h1{
+  font-size:2rem;
+}
+h2{
+  font-size:1.5rem;
+}
+h3{
+  font-size:1.2rem;
+}
+#top{
+  border-bottom:1px solid #423629;
+}
+nav{
+  background-color:white;
+  width:100%;
+  padding:0.6rem;
+  margin-bottom:0.7rem;
+  position:sticky;
+  top:0;
+  display:inline-flex;
+  align-items:center;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  background-color:#c98686;
+  color:white;	
+}
+nav a{
+  margin-right:0.4rem;
+  margin-left:0.4rem;
+}
+nav a:hover{
+  background-color:#c98686;
+  color:white;
+  height:1.1rem;
+  width:auto;
+}
+.dropdown{
+  position:relative;
+}
+.ddc{
+  display:none;
+  position:absolute;
+  background-color:#F9F9F9;
+  min-width:10rem;
+  padding:0.5rem;
+  flex-wrap: wrap;
+  align-content: center;
+  line-height:1.5rem;
+  border: 1px solid #423629;
+}
+.dropdown:hover{
+  background-color:#c98686;
+  color:white;
+}
+.dropdown:hover .ddc{
+  display:block;
+}
+main {
+  margin-left:5rem;
+  display:flex;
+  flex-direction:column;
+}
+footer{
+  margin-left:0.7rem;
+  padding-top:0.7rem;
+}
+section{
+  display:flex;
+  flex-direction:column;
+}
+
+#greetings{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  margin-top:1.2rem;
+}
+#me{
+  height:auto;
+  max-width:7rem;
+  margin:0.7rem;
+  margin-right:1.2rem;
+}
+#aboutme{
+  max-width:45rem;
+}
+#pprojects{
+  max-width:45rem;
+}
+#pic1, #pic2, #pic3{
+  width:70%;
+  height:auto;
+}
+#hr1{
+  margin-top:0;
+}
+#hr2{
+  margin-bottom:-0.7rem;
+  margin-top:2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  color:#c;
+}
+
+@media (max-width: 600px){
+body{
+  display:flex;
+  flex-direction: column;
+}
+#me{
+  height:auto;
+  max-width:20%;
+}
+p{
+  font-size:1.2rem;
+}
+h1{
+  font-size: 2.5rem;
+}
+h2{
+ font-size:2rem;
+}
+h3{
+ font-size:1.8rem;
+}
+ul{
+  font-size:1.2rem
+}
+.project img{
+  height:auto;
+  max-width:100%;
+}
+}
