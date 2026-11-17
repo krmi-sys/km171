@@ -32,9 +32,6 @@ h2{
 h3{
   font-size:1.2rem;
 }
-#top{
-  border-bottom:1px solid #423629;
-}
 nav{
   background-color:white;
   width:100%;
@@ -44,6 +41,7 @@ nav{
   top:0;
   display:inline-flex;
   align-items:center;
+  border-bottom:1px solid #8A7F78;;
 }
 a{
   text-decoration:none;
@@ -84,14 +82,23 @@ nav a:hover{
 .dropdown:hover .ddc{
   display:block;
 }
+
 main {
-  margin-left:5rem;
   display:flex;
   flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #423629;
+  max-width: 55rem;
+  margin:auto;
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
 }
 footer{
+  margin-top:1rem;
   margin-left:0.7rem;
   padding-top:0.7rem;
+  border-top: 1px solid #8A7F78;
 }
 section{
   display:flex;
@@ -111,7 +118,7 @@ section{
   margin-right:1.2rem;
 }
 #aboutme{
-  max-width:45rem;
+  max-width:45rem;	
 }
 #pprojects{
   max-width:45rem;
@@ -120,20 +127,15 @@ section{
   width:70%;
   height:auto;
 }
-#hr1{
-  margin-top:0;
-}
-#hr2{
-  margin-bottom:-0.7rem;
-  margin-top:2rem;
-}
 
 html {
   scroll-behavior: smooth;
-  color:#c;
 }
 
 @media (max-width: 600px){
+main{
+  padding:1rem;
+}
 body{
   display:flex;
   flex-direction: column;
