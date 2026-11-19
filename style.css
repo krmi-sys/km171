@@ -131,6 +131,9 @@ section{
 html {
   scroll-behavior: smooth;
 }
+html, body{
+  margin-right:25px
+}
 
 @media (max-width: 600px){
 main{
@@ -139,6 +142,11 @@ main{
 body{
   display:flex;
   flex-direction: column;
+}
+html,body{
+  overflow-x:hidden;
+  margin-left:5px;
+  margin-right:5px;
 }
 #me{
   height:auto;
@@ -163,4 +171,8 @@ ul{
   height:auto;
   max-width:100%;
 }
+  nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
